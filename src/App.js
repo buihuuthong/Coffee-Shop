@@ -1,12 +1,18 @@
-import { Col, Row } from 'antd';
+import { Col, Row, Input } from 'antd';
 import "antd/dist/antd.min.css";
 import React from 'react';
 import './App.css';
+
+const { Search } = Input;
+
+const onSearch = (value: string) => console.log(value);
 
 function App() {
 
 
   return (
+
+
     <div className="container">
       <div className='header'>
 
@@ -84,6 +90,62 @@ function App() {
             <img src={require('./assets/product3.png')} className='product' alt='' />
           </Col>
         </Row>
+
+        {/* Special Menu */}
+        <div className='special-menu'>
+          <Row>
+            <h1 style={{ fontWeight: 'bold', paddingLeft: '20px' }}>Special menu for you</h1>
+          </Row>
+          <Row>
+            <Col className='menu' span={8}>
+              <img src={require('./assets/card_product_1.png')} width={"100%"} />
+            </Col>
+            <Col className='menu' span={8}>
+              <img src={require('./assets/card_product_1 (1).png')} width={"100%"} />
+            </Col>
+            <Col className='menu' span={8}>
+              <img src={require('./assets/card_product_1 (2).png')} width={"100%"} />
+            </Col>
+          </Row>
+          <Row>
+            <Col className='menu' span={8}>
+              <img src={require('./assets/card_product_1 (3).png')} width={"100%"} />
+            </Col>
+            <Col className='menu' span={8}>
+              <img src={require('./assets/card_product_1 (4).png')} width={"100%"} />
+            </Col>
+            <Col className='menu' span={8}>
+              <img src={require('./assets/card_product_1 (5).png')} width={"100%"} />
+            </Col>
+          </Row>
+        </div>
+
+        <div className='testimonial'>
+          <div>
+            <img src={require('./assets/bg-image.png')} width={"60%"} />
+            <h1 class="text">What they say about us</h1>
+            <p class="text1">We always provide the best service<br></br>and always maintain the quality<br></br>of coffee</p>
+          </div>
+
+          <div className="card_special">
+            <img src={require('./assets/Card.png')} width={"100%"} />
+          </div>
+        </div>
+
+        <div className='newsletter'>
+          <img style={{ marginLeft: '130px' }} src={require('./assets/unsplash_ftA71vetxuo.png')} width={"80%"} />
+          <div className="conten">
+            <h1 className="newsletter-text">Subscribe to get 50% discount price</h1>
+            <Search className="newsletter-input"
+              placeholder="Email Address"
+              allowClear
+              enterButton="Order now"
+              size="large"
+              onSearch={onSearch}
+             />
+          </div>
+        </div>
+
       </div>
     </div>
   );

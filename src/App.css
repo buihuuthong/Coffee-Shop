@@ -19,12 +19,13 @@
   align-items: center;
   justify-content: center;
 }
+
 .logo {
   width: 145px;
   height: 30px;
 }
 
-.menu-item{
+.menu-item {
   font-size: 18px;
   align-items: center;
 }
@@ -119,6 +120,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .coffee-left-icon {
   width: 569px;
   height: 394px;
@@ -135,3 +137,53 @@
 }
 
 /* popular */
+
+.special-menu {
+  padding-bottom: 100px;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.text {
+  font-weight: bold;
+  position: absolute;
+  margin-top: -320px;
+  margin-left: 250px;
+}
+
+.text1 {
+  position: absolute;
+  margin-top: -270px;
+  margin-left: 250px;
+}
+
+.card_special {
+  margin-top: -390px;
+  margin-left: 600px;
+}
+
+.testimonial,
+.newsletter {
+  padding-bottom: 200px;
+}
+
+.newsletter-text {
+  font-weight: bold;
+  color: white;
+  margin-top: -280px;
+  margin-left: 450px;
+}
+
+.newsletter-input {
+  width: 30%;
+  margin-left: 500px;
+}
+.ant-btn-primary {
+  background-color: rgba(67, 50, 50, 0.882);
+  border: none;
+}
+.ant-btn-primary:hover {
+  background-color: rgba(36, 70, 99, 0.882);
+}
