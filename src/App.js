@@ -71,7 +71,7 @@ function App() {
             <Row>
               <Col span={6}>
                 <button className='order-button'>
-                  <p className='order-text'>Order now</p>
+                  Order now
                   <img src={require('./assets/cart-order.png')} className='order-icon' alt='Order now' />
                 </button>
               </Col>
