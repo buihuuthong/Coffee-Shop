@@ -1,4 +1,4 @@
-import { Col, Row } from 'antd';
+import { Card, Col, Row } from 'antd';
 import "antd/dist/antd.min.css";
 import React from 'react';
 import './App.css';
@@ -73,7 +73,7 @@ function App() {
         <div className='popular-title'>
           <p className='popular-title-text'>Popular <span className='popular-title-c'>Now</span></p>
         </div>
-        <Row>
+        <Row >
           <Col span={8}>
             <img src={require('./assets/product1.png')} className='product' alt='' />
           </Col>
@@ -84,6 +84,9 @@ function App() {
             <img src={require('./assets/product3.png')} className='product' alt='' />
           </Col>
         </Row>
+        <div>
+          <img src={require('./assets/rectangle.png')} className='rectangle' alt='' />
+        </div>
       </div>
     </div>
   );
