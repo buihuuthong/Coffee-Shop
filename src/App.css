@@ -2,6 +2,14 @@
   font-family: monospace;
 }
 
+.center {
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
 .header {
   width: 100%;
   height: 970px;
@@ -125,7 +133,6 @@
   width: 569px;
   height: 394px;
   margin-left: -135px;
-  margin-top: -160px;
 }
 
 .coffee-right-icon {
@@ -137,6 +144,43 @@
 }
 
 /* popular */
+.popular {
+  padding: 86px;
+  margin-top: -25%;
+}
+
+.popular-title-text {
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 49px;
+}
+
+.popular-title-c {
+  text-decoration: underline;
+  text-decoration-color: #FF902A;
+}
+
+.product {
+  width: 355px;
+  height: 385px;
+  margin-left: 63px;
+}
+
+.product-item {
+  width: 355px;
+  height: 385px;
+  margin-left: 63px;
+}
+
+.product:hover {
+  cursor: pointer;
+}
+
+.rectangle {
+  width: 100%;
+  height: 367px;
+  margin-top: -20%;
+}
 
 .special-menu {
   padding-bottom: 100px;
