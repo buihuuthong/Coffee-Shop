@@ -128,7 +128,23 @@ function App() {
           </div>
 
           <div className="card_special">
-            <img src={require('./assets/Card.png')} width={"100%"} />
+            <img src={require('./assets/trung.jpg')} width={"25%"} style={{ border: '6px solid #FFD390', boxShadow: '4px 4px 4px gray' }} />
+            <img src={require('./assets/hao.jpg')} width={"25%"} style={{ border: '6px solid #FFD390', boxShadow: '4px 4px 4px gray' }} />
+            <img src={require('./assets/phuc.jpg')} width={"25%"} height={"292px"} style={{ border: '6px solid #FFD390', boxShadow: '4px 4px 4px gray' }} />
+          </div>
+          <div className='text-card'>
+            <div className='card-1'>
+              <h3><b>Trung East</b></h3>
+              <p>I really love the cappucino, the coffee was very smooth</p>
+            </div>
+            <div className='card-1'>
+              <h3><b>Hào Eren</b></h3>
+              <p>This coffee shop is very convenient</p>
+            </div>
+            <div className='card-1'>
+              <h3><b>Phúc Ngô</b></h3>
+              <p>The coffee menu here is very much</p>
+            </div>
           </div>
         </div>
 
@@ -142,7 +158,7 @@ function App() {
               enterButton="Order now"
               size="large"
               onSearch={onSearch}
-             />
+            />
           </div>
         </div>
 

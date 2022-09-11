@@ -162,6 +162,25 @@
 .card_special {
   margin-top: -390px;
   margin-left: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-card {
+  margin-top: -70px;
+  margin-left: 680px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-1 {
+  width: 226.5px;
+  height: 90px;
+  border-radius: 8px;
+  background-color: #FFCB7C;
+  padding-left: 8px;
+  box-shadow: 4px 4px 4px gray;
+  border: 1px solid grey;
 }
 
 .testimonial,
@@ -180,10 +199,12 @@
   width: 30%;
   margin-left: 500px;
 }
+
 .ant-btn-primary {
   background-color: rgba(67, 50, 50, 0.882);
   border: none;
 }
+
 .ant-btn-primary:hover {
   background-color: rgba(36, 70, 99, 0.882);
 }
