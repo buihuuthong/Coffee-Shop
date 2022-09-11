@@ -156,7 +156,7 @@ function App() {
         </Row>
         <Row>
           <Col span={12}>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.272531928605!2d106.79983827348215!3d10.954024177292109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d95970202f3f%3A0x679e7fa6d33f74e5!2zVHLGsOG7nW5nIMSR4bqhaSBo4buNYyBM4bqhYyBI4buTbmcsIEPGoSBz4bufIDE!5e0!3m2!1svi!2s!4v1662905589960!5m2!1svi!2s" className='map'></iframe>
+            <iframe title='Cafe Street location' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.272531928605!2d106.79983827348215!3d10.954024177292109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d95970202f3f%3A0x679e7fa6d33f74e5!2zVHLGsOG7nW5nIMSR4bqhaSBo4buNYyBM4bqhYyBI4buTbmcsIEPGoSBz4bufIDE!5e0!3m2!1svi!2s!4v1662905589960!5m2!1svi!2s" className='map'></iframe>
           </Col>
           <Col span={12}>
             <p className='about-text'>Spacious space.</p>
