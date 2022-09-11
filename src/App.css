@@ -224,6 +224,7 @@
 .card_special {
   margin-top: -390px;
   margin-left: 600px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-around;
 }
@@ -245,9 +246,12 @@
   border: 1px solid grey;
 }
 
-.testimonial,
-.newsletter {
+.testimonial{
   padding-bottom: 200px;
+}
+
+.newsletter{
+  padding-bottom: 110px;
 }
 
 .newsletter-text {
@@ -269,8 +273,6 @@
 
 .ant-btn-primary:hover {
   background-color: rgba(36, 70, 99, 0.882);
-<<<<<<< HEAD
-=======
 }
 
 .about-us {
@@ -295,7 +297,6 @@
   font-size: 18px;
   font-weight: 700;
   margin-left: 50px;
->>>>>>> 59626cd28ff403d724977e70b8a0472a1094888d
 }
 
 .about-us {
